@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <HeaderContainer>
-        <img src={logo} className="App-logo" height={32} width={108} alt="logo" />
+        <img src={logo} height={32} width={108} alt="logo" />
         <Right>
           <select>
             <option value="Português">Português</option>
