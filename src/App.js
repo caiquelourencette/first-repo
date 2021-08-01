@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { HeaderContainer, Right } from './styles';
+import { HeaderContainer, Right, Header } from './styles';
 
 function App() {
   const teste = () => {
@@ -8,7 +8,7 @@ function App() {
   }
   return (
     <div className="App">
-      <header className="App-header">
+      <Header className="App-header">
       <HeaderContainer>
         <img src={logo} height={32} width={108} alt="logo" />
         <Right>
@@ -21,7 +21,7 @@ function App() {
           </button>
         </Right>
       </HeaderContainer>
-      </header>
+      </Header>
     </div>
   );
 }
