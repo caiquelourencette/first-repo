@@ -24,9 +24,11 @@ export const Header = styled.header`
 
 export const OurStoryContainer = styled.div`
   display: flex;
-  justify-content: center;
   height: 80vh;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 100%;
 `;
 
 export const TextContainer = styled.div`
@@ -48,5 +50,41 @@ export const TextContainer = styled.div`
     font-size: 23px;
     margin: 0;
     font-weight: 400;
+    padding-bottom: 14px;
   }
 `;
+
+export const Mytext = styled.input`
+  height: 54px;
+  padding-left: 10px;
+  width: 70%;
+`;
+
+export const Buttonstyle = styled.button`
+  height: 54px;
+  color: #ffff;
+  background-color: #f40612;
+  font-size: 0.94rem;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const FormContainer = styled.div`
+  display: flex;
+  padding: 24px;
+  width: 100%;
+
+  @media only screen and (max-width: 860px) {
+    max-width: 600px;
+  }
+
+  @media only screen and (max-width: 1080px) {
+    max-width: 800px;
+  }
+
+  max-width: 950px;
+`
+export const ButtonContainer = styled.div`
+`
