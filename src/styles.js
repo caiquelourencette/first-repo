@@ -55,17 +55,16 @@ export const TextContainer = styled.div`
 `;
 
 export const Mytext = styled.input`
-  height: 54px;
   padding-left: 10px;
-  width: 70%;
+  width: 55%;
 `;
 
 export const Buttonstyle = styled.button`
-  height: 54px;
+  height: 100%;
   color: #ffff;
   background-color: #f40612;
-  font-size: 0.94rem;
-  width: 30%;
+  font-size: 1.625rem;
+  width: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,16 +74,16 @@ export const FormContainer = styled.div`
   display: flex;
   padding: 24px;
   width: 100%;
+  height: 54px;
+ 
 
   @media only screen and (max-width: 860px) {
     max-width: 600px;
   }
 
   @media only screen and (max-width: 1080px) {
-    max-width: 800px;
+    max-width: 633px;
   }
 
-  max-width: 950px;
-`
-export const ButtonContainer = styled.div`
+  max-width: 633px;
 `

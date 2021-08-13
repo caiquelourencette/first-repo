@@ -9,7 +9,6 @@ import {
   Mytext, 
   Buttonstyle,
   FormContainer,
-  ButtonContainer,
 } from './styles';
 import { BsChevronCompactRight } from 'react-icons/bs';
 
@@ -46,7 +45,6 @@ function App() {
         <FormContainer>
           <Mytext placeholder="Email"/>
           <Buttonstyle onClick={ () => {
-            console.log("teste")
           }}>
            <span>Vamos lá</span>
            <BsChevronCompactRight />
