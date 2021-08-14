@@ -4,9 +4,12 @@
   min-height: 100vh;
   font-family: 'Rubik', sans-serif;
   max-width: 100vw;
+
+  background-color: #282c34;
   
   background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/3064770e-4281-4471-b539-b1dc98d164a5/BR-pt-20210719-popsignuptwoweeks-perspective_alpha_website_large.jpg');
-  
+  background-repeat: no-repeat;
+  background-size: cover;
 }
   
 
@@ -22,7 +25,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   display: flex;
   flex-direction: column;
   align-items: center;
