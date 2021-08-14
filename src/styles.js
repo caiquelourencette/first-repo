@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -86,4 +86,4 @@ export const FormContainer = styled.div`
   }
 
   max-width: 633px;
-`
+`;
