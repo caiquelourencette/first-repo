@@ -16,10 +16,12 @@ export const Right = styled.div`
 `;
 
 export const Header = styled.header`
-  margin: 0 45px;
+  margin: 0;
+  padding: 0 45px;
   justify-content: flex-start;
   padding-top: 8px;
   height: 65px;
+  max-width: 100%;
 `;
 
 export const OurStoryContainer = styled.div`
@@ -55,8 +57,11 @@ export const TextContainer = styled.div`
 `;
 
 export const Mytext = styled.input`
-  padding-left: 10px;
-  width: 55%;
+  padding: 0 2px 0 10px;
+  border-top: 0;
+  border-bottom: 0;
+  width: 75%;
+  height: 100%;
 `;
 
 export const Buttonstyle = styled.button`
@@ -68,6 +73,8 @@ export const Buttonstyle = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top: 0;
+  border-bottom: 0;
 `;
 
 export const FormContainer = styled.div`
