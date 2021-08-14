@@ -1,26 +1,28 @@
+/* eslint-disable no-console */
+import React from 'react';
+import { BsChevronCompactRight } from 'react-icons/bs';
 import logo from './logo.svg';
 import './App.css';
-import { 
-  HeaderContainer, 
-  Right, 
-  Header, 
-  OurStoryContainer, 
-  TextContainer, 
-  Mytext, 
+import {
+  HeaderContainer,
+  Right,
+  Header,
+  OurStoryContainer,
+  TextContainer,
+  Mytext,
   Buttonstyle,
   FormContainer,
 } from './styles';
-import { BsChevronCompactRight } from 'react-icons/bs';
 
 function App() {
   const teste = () => {
-    console.log('botao entrar clicado')
-  }
+    console.log('botao entrar clicado');
+  };
   const vamosla = () => {
-    console.log('Botão de vamosla')
-  }
+    console.log('Botão de vamosla');
+  };
   return (
-    <div className="App"> 
+    <div className="App">
       <Header className="App-header">
         <HeaderContainer>
           <img src={logo} height={32} width={108} alt="logo" />
@@ -43,11 +45,10 @@ function App() {
           <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
         </TextContainer>
         <FormContainer>
-          <Mytext placeholder="Email"/>
-          <Buttonstyle onClick={ () => {
-          }}>
-           <span>Vamos lá</span>
-           <BsChevronCompactRight />
+          <Mytext placeholder="Email" />
+          <Buttonstyle onClick={vamosla}>
+            <span>Vamos lá</span>
+            <BsChevronCompactRight />
           </Buttonstyle>
         </FormContainer>
 
