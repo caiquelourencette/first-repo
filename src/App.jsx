@@ -1,31 +1,29 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { BsChevronCompactRight } from 'react-icons/bs';
 import logo from './logo.svg';
 import './App.css';
+
+import Form from './components/Form';
+
 import {
   HeaderContainer,
   Right,
   Header,
   OurStoryContainer,
   TextContainer,
-  Mytext,
-  Buttonstyle,
-  FormContainer,
+  Image,
 } from './styles';
 
 function App() {
   const teste = () => {
     console.log('botao entrar clicado');
   };
-  const vamosla = () => {
-    console.log('Botão de vamosla');
-  };
+
   return (
     <div className="App">
       <Header className="App-header">
         <HeaderContainer>
-          <img src={logo} height={32} width={108} alt="logo" />
+          <Image src={logo} height={32} width={108} alt="logo" />
           <Right>
             <select>
               <option value="Português">Português</option>
@@ -44,13 +42,7 @@ function App() {
           <h2>Assista onde quiser. Cancele quando quiser.</h2>
           <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
         </TextContainer>
-        <FormContainer>
-          <Mytext placeholder="Email" />
-          <Buttonstyle onClick={vamosla}>
-            <span>Vamos lá</span>
-            <BsChevronCompactRight />
-          </Buttonstyle>
-        </FormContainer>
+        <Form />
 
       </OurStoryContainer>
     </div>

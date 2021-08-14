@@ -1,11 +1,19 @@
 import styled from 'styled-components';
 
+export const Header = styled.header`
+  justify-content: flex-start;
+  padding-top: 8px;
+  height: 65px;
+  max-width: 100%;
+`;
+
 export const HeaderContainer = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
   height: 64px;
   align-items: center;
+  margin-top: 18px;
 `;
 
 export const Right = styled.div`
@@ -13,15 +21,7 @@ export const Right = styled.div`
   display: flex;
   justify-content: space-between;
   width: 192px;
-`;
-
-export const Header = styled.header`
-  margin: 0;
-  padding: 0 45px;
-  justify-content: flex-start;
-  padding-top: 8px;
-  height: 65px;
-  max-width: 100%;
+  margin-right: 45px;
 `;
 
 export const OurStoryContainer = styled.div`
@@ -56,41 +56,6 @@ export const TextContainer = styled.div`
   }
 `;
 
-export const Mytext = styled.input`
-  padding: 0 2px 0 10px;
-  border-top: 0;
-  border-bottom: 0;
-  width: 75%;
-  height: 100%;
-`;
-
-export const Buttonstyle = styled.button`
-  height: 100%;
-  color: #ffff;
-  background-color: #f40612;
-  font-size: 1.625rem;
-  width: 25%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top: 0;
-  border-bottom: 0;
-`;
-
-export const FormContainer = styled.div`
-  display: flex;
-  padding: 24px;
-  width: 100%;
-  height: 54px;
- 
-
-  @media only screen and (max-width: 860px) {
-    max-width: 600px;
-  }
-
-  @media only screen and (max-width: 1080px) {
-    max-width: 633px;
-  }
-
-  max-width: 633px;
+export const Image = styled.img`
+  margin-left: 45px;
 `;
