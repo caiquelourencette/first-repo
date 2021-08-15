@@ -3,14 +3,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Form from './components/Form';
+import OurStory from './components/OurStory';
 
 import {
   HeaderContainer,
   Right,
   Header,
-  OurStoryContainer,
-  TextContainer,
   Image,
 } from './styles';
 
@@ -35,16 +33,8 @@ function App() {
           </Right>
         </HeaderContainer>
       </Header>
-      <OurStoryContainer>
-        <TextContainer>
-          <h1>Filmes, séries e muito mais.</h1>
-          <h1>Sem limites.</h1>
-          <h2>Assista onde quiser. Cancele quando quiser.</h2>
-          <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
-        </TextContainer>
-        <Form />
+      <OurStory />
 
-      </OurStoryContainer>
     </div>
   );
 }
