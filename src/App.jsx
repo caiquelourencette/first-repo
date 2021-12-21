@@ -14,7 +14,7 @@ import {
 
 function App() {
   const teste = () => {
-    console.log('botao entrar clicado');
+    console.log('botao qualquer coisa entrar clicado');
   };
 
   return (
